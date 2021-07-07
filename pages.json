@@ -1,0 +1,26 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/phones/phones",
+		    "style" : {
+		        "navigationBarTitleText" : "通讯录",
+		        "app-plus":{
+		            "bounce":"none",
+		            "scrollIndicator":"none"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/phones/phone-search",
+		    "style" : {
+		        "navigationBarTitleText" : "搜索联系人"
+		    }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
